@@ -1,11 +1,11 @@
-import { ScanSearch, ClipboardList, FilePen, FolderOpen, TriangleAlert, Lock } from 'lucide-react'
+import { ScanSearch, ClipboardList, FilePen, FolderOpen, AlertTriangle, Lock } from 'lucide-react'
 
 const features = [
   { icon: ScanSearch, title: 'Contract AI Analysis', body: 'Upload any PDF or DOCX. Lexara extracts every clause, assigns risk levels, flags unusual terms, and produces a human-readable summary report in under 90 seconds.' },
   { icon: ClipboardList, title: 'Smart Client Intake', body: 'Build adaptive intake forms that change based on case type. New client details land directly in your matter management queue — no email chasing.' },
   { icon: FilePen, title: 'Document Generation', body: 'NDAs, engagement letters, demand letters — generated from your firm\'s approved templates with AI-filled variables. Draft in 3 minutes, review for 3.' },
   { icon: FolderOpen, title: 'Matter Management', body: 'Every case in one place. Documents, deadlines, contacts, and communication history organised per matter with real-time status tracking.' },
-  { icon: TriangleAlert, title: 'Risk Detection', body: 'Automatic flagging of penalty clauses, overbroad non-competes, missing force majeure provisions, and jurisdiction issues before they become problems.' },
+  { icon: AlertTriangle, title: 'Risk Detection', body: 'Automatic flagging of penalty clauses, overbroad non-competes, missing force majeure provisions, and jurisdiction issues before they become problems.' },
   { icon: Lock, title: 'Secure by Default', body: 'End-to-end encryption, GDPR-compliant data residency in Frankfurt DE, role-based access control, and a full audit trail. ISO 27001 in progress.' },
 ]
 
